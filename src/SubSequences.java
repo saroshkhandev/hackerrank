@@ -15,8 +15,8 @@ public class SubSequences {
 
         }
 
-        for(int i = 0; i < smallAns.length; i++) {
-            ans[k] = str.charAt(0) + smallAns[i];
+        for (String smallAn : smallAns) {
+            ans[k] = str.charAt(0) + smallAn;
             k++;
         }
 
