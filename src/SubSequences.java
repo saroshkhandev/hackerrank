@@ -12,6 +12,7 @@ public class SubSequences {
         for(int i = 0; i < smallAns.length; i++) {
             ans[i] = smallAns[i];
             k++;
+
         }
 
         for(int i = 0; i < smallAns.length; i++) {
