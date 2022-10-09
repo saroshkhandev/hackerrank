@@ -18,4 +18,5 @@ public class KadensAlgo {
         int arr[] = {5, -4, -2, 6, -1};
         System.out.println(maxSumSubArray(arr));
     }
+
 }
